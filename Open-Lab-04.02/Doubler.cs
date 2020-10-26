@@ -6,7 +6,15 @@ namespace Open_Lab_04._02
     {
         public string DoubleChar(string original)
         {
-            throw new NotImplementedException();
+            int l = 0;
+            string fly = "";
+            while (l <= original.Length - 1)
+            {
+                fly += original[l];
+                fly += original[l];
+                l++;
+            }
+            return fly;
         }
     }
 }
