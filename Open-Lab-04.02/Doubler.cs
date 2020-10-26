@@ -7,14 +7,14 @@ namespace Open_Lab_04._02
         public string DoubleChar(string original)
         {
             int l = 0;
-            string fly = "";
+            string letter = "";
             while (l <= original.Length - 1)
             {
-                fly += original[l];
-                fly += original[l];
+                letter += original[l];
+                letter += original[l];
                 l++;
             }
-            return fly;
+            return letter;
         }
     }
 }
